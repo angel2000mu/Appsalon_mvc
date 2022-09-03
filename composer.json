@@ -1,0 +1,23 @@
+{
+    "name": "admon/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP 8, MVC, SQL, SASS, GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./", 
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes",
+            "Admon\\AppSalonPhpMvcJsSass\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Angel Munoz"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
